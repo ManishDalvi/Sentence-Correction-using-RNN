@@ -1,6 +1,6 @@
 # Sentence Correction using RNN
 
-## Models Used : Encoder-Decoder Models, Luong Attenion Model, Transformers.
+## Models Used : Encoder-Decoder Models, Luong Attention Model, Transformers.
 - This Case Study on “Sentence Correction using Recurrent Neural Networks” is a research paper-based case study dealing with mapping text which have social media type of shortened texts to a proper English language text. The paper mainly deals with preprocessing of the raw text obtained from a public domain and converting it to texts which are close to English language. For example: “Lea u there?” should be converted to “Lea, are you there?”.
 The paper starts with explaining various existing models such as Luong Attention, Hidden Markov model, Bahdanau Models which mainly use word correction and this paper tried to implement a character level approach.
 - Paper Approach: The main approach of the research paper is one hot encoding the characters into a 94-dimension vector. 94 dimensions is chosen since there are 94 printable/visible ASCII characters. After embedding the character into a 94D vector, it is passed onto RNNs. RNNs are chosen since they are  very effective in capturing sequential data and also capture sophisticated interactions.
