@@ -1,4 +1,4 @@
-# Sentence-Correction-using-RNN
+# Sentence Correction using RNN
 
 - This Case Study on “Sentence Correction using Recurrent Neural Networks” is a research paper-based case study dealing with mapping text which have social media type of shortened texts to a proper English language text. The paper mainly deals with preprocessing of the raw text obtained from a public domain and converting it to texts which are close to English language. For example: “Lea u there?” should be converted to “Lea, are you there?”.
 The paper starts with explaining various existing models such as Luong Attention, Hidden Markov model, Bahdanau Models which mainly use word correction and this paper tried to implement a character level approach.
